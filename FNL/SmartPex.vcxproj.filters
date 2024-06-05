@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\HyperV">
+      <UniqueIdentifier>{5804360d-23a6-4d5b-bba9-7b3feabd7055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{dc5dd6ff-f3b2-4a45-87d6-79c47917cd7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\overlay">
+      <UniqueIdentifier>{3e661423-8aac-4919-a338-71eb9f6488aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk">
+      <UniqueIdentifier>{f785b286-24c4-499e-aa64-747874c2cb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\ImGui">
+      <UniqueIdentifier>{524cdca6-88e6-41b7-8d1e-e85ec069887d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Security">
+      <UniqueIdentifier>{f0818c07-13d7-4ca2-8363-18027a85a5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\freetype">
+      <UniqueIdentifier>{7cbe8340-389d-4419-b389-7bbc87250a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\freetype\include">
+      <UniqueIdentifier>{110361cd-4ef2-4ca8-af87-ff91adb6af97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\freetype\win64">
+      <UniqueIdentifier>{24514f24-e746-4656-bda4-84480614d7b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\freetype\include\freetype">
+      <UniqueIdentifier>{e787a7ae-5380-4aaa-8f65-6f33772bca85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\freetype\include\freetype\config">
+      <UniqueIdentifier>{dd569992-0cb7-4e79-ba10-b79748d7bdbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\Entitys">
+      <UniqueIdentifier>{dfef737a-5ec3-471e-a304-b4eb5ce339af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\authentication">
+      <UniqueIdentifier>{3e639926-4467-4d0e-aa49-1a19247cd515}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HyperV\CommsUtils.h">
+      <Filter>Header Files\HyperV</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperV\HyperV.h">
+      <Filter>Header Files\HyperV</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperV\Memory.h">
+      <Filter>Header Files\HyperV</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay.hpp">
+      <Filter>Header Files\gui\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.hpp">
+      <Filter>Header Files\gui\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.hpp">
+      <Filter>Header Files\gui\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.hpp">
+      <Filter>Header Files\gui\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Header Files\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_freetype.h">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\ft2build.h">
+      <Filter>Header Files\gui\freetype\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\freetype.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftadvanc.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftbbox.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftbdf.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftbitmap.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftbzip2.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftcache.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftchapters.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftcid.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftcolor.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftdriver.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\fterrdef.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\fterrors.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftfntfmt.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftgasp.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftglyph.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftgxval.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftgzip.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftimage.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftincrem.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftlcdfil.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftlist.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftlogging.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftlzw.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftmac.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftmm.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftmodapi.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftmoderr.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftotval.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftoutln.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftparams.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftpfr.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftrender.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftsizes.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftsnames.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftstroke.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftsynth.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftsystem.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\fttrigon.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\fttypes.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ftwinfnt.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\otsvg.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\t1tables.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\ttnameid.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\tttables.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\tttags.h">
+      <Filter>Header Files\gui\freetype\include\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftconfig.h">
+      <Filter>Header Files\gui\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftheader.h">
+      <Filter>Header Files\gui\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftmodule.h">
+      <Filter>Header Files\gui\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftoption.h">
+      <Filter>Header Files\gui\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftstdlib.h">
+      <Filter>Header Files\gui\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\integer-types.h">
+      <Filter>Header Files\gui\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\mac-support.h">
+      <Filter>Header Files\gui\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\public-macros.h">
+      <Filter>Header Files\gui\freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.hpp">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.hpp">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Players.hpp">
+      <Filter>Header Files\sdk\Entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\auth.hpp">
+      <Filter>Header Files\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\json.hpp">
+      <Filter>Header Files\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyAuth\utils.hpp">
+      <Filter>Header Files\authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="game.hpp">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.hpp">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="HyperV\Asm.asm">
+      <Filter>Header Files\HyperV</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_freetype.cpp">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Header Files\gui\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="freetype\win64\freetype.lib">
+      <Filter>Header Files\gui\freetype\win64</Filter>
+    </Library>
+    <Library Include="KeyAuth\library_x64.lib">
+      <Filter>Header Files\authentication</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
